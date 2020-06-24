@@ -6,7 +6,9 @@
     "block-no-empty": true,
     "color-no-invalid-hex": true,
     "comment-empty-line-before": null,
-    "declaration-colon-space-after": "always",
+    "declaration-colon-space-after": ["always",{
+      "except": ["pseudo-classes"]
+    }],
     "declaration-block-semicolon-newline-after": "always",
     "declaration-block-trailing-semicolon": "always",
     "indentation": 2,
